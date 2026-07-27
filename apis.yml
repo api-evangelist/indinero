@@ -1,7 +1,27 @@
 aid: indinero
 name: Indinero
-description: Indinero is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Indinero is a Finance-as-a-Service (FaaS) provider that combines professional
+  accountants, tax experts, and fractional CFOs with AI-accelerated workflows to
+  deliver outsourced accounting, bookkeeping, business tax preparation, payroll,
+  409A valuations, and on-demand financial support. Founded in 2009 and backed by
+  500 Global, the company serves startups through $500M+ revenue businesses across
+  technology, SaaS, ecommerce, healthcare, construction, crypto, professional
+  services, and non-profits, integrating primarily with QuickBooks Online and
+  NetSuite. Indinero is SOC 2 compliant and delivers its services through a client
+  portal (the indinero Exchange) rather than a public developer API.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.indinero.com/wp-content/uploads/2023/06/logo.svg
 url: https://raw.githubusercontent.com/api-evangelist/indinero/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Accounting
+- Bookkeeping
+- Tax
+- CFO Services
+- Payroll
+- Finance as a Service
+- Fintech
+- Small Business
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,24 @@ maintainers:
 common:
 - type: Website
   url: https://indinero.com
+- type: Blog
+  url: https://www.indinero.com/blog/
+- type: Pricing
+  url: https://www.indinero.com/pricing/
+- type: TermsOfService
+  url: https://www.indinero.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://www.indinero.com/privacy-policy/
+- type: Support
+  url: https://www.indinero.com/contact-us/
+- type: Login
+  url: https://exchange.indinero.com/login/
+- type: GitHubOrganization
+  url: https://github.com/indinero
+- type: DomainSecurity
+  url: security/indinero-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
