@@ -10,6 +10,17 @@ description: >-
   services, and non-profits, integrating primarily with QuickBooks Online and
   NetSuite. Indinero is SOC 2 compliant and delivers its services through a client
   portal (the indinero Exchange) rather than a public developer API.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
